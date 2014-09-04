@@ -36,9 +36,31 @@
         <h2>Mina kontaktuppgifter</h2>
 
         <p>
-            Du når mig enklast genom e-post:
-            johnny(snabel-a)pesola.se
+            OBS. Det här kontaktformuläret fungerar inte för tillfället.
         </p>
+        <form method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+            <fieldset>
+                <legend>Fråga</legend>
+                Ärendetyp
+                <select name="fraga_typ">
+                    <option value="fraga" selected>Fråga</option>
+                    <option value="klagomal">Klagomål</option>
+                    <option value="berom">Beröm</option>
+                </select>
+                <br>
+                Rubrik: <input type="text">
+                <br>
+                Fråga
+                <textarea name="fraga_text"></textarea>
+                
+            </fieldset>
+            <fieldset>
+                <legend>Information om dig</legend>
+                Kontakta mig via mail <input type="checkbox" name="information_kontakt_mail"><br>
+                Kontakta mig via telefon <input type="checkbox" name="information_kontakt_telefon">
+            </fieldset>
+            <input type="submit" name="skicka" value="Skicka frågan">
+        </form>
         
     </body>
 </html>
