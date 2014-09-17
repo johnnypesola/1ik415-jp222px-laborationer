@@ -2,6 +2,9 @@
 <html lang="sv">
     <head>
         <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/reset.css" type="text/css" /> <!-- Reset stylesheet -->
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'> <!-- Google font -->
         <title>Kurshemsidan (Johnny Pesola)</title>
         <!--
             Author: Johnny Pesola
@@ -9,78 +12,93 @@
         -->
     </head>
     <body>
+
+<!-- Container Start -->
+        <div id="container">
     
-        <img src="pics/pesola_logo.png" alt="logotyp">
-    
-        <h1>Min kurshemsida</h1>
-        <p>
-            Johnny Pesola:s hemsida.
-        </p>
-        
+<!-- Sidhuvud Start -->
+                <div id="header">
+                    <img src="pics/pesola_logo.png" alt="logotyp">
+                    <h1>Min kurshemsida</h1>
+                    <p>
+                        Johnny Pesola:s hemsida.
+                    </p>    
+                </div>
+<!-- Sidhuvud Slut -->
 <!-- Navigeringsmenyn Start -->
-        <ul>
-            <li>
-                <a href="index.html">Startsidan</a>
-            </li>
-            <li>
-                <a href="pages/laborationer.html">Laborationer</a>
-            </li>
-            <li>
-                <a href="pages/presentation.html">Presentation</a>
-            </li>
-            <li>
-                <a href="pages/kontakt.html">Kontakt</a>
-            </li>
-        </ul>
+                <div id="navigation">
+                    <ul>
+                        <li>
+                            <a href="index.html">Startsidan</a>
+                        </li>
+                        <li>
+                            <a href="pages/laborationer.html">Laborationer</a>
+                        </li>
+                        <li>
+                            <a href="pages/presentation.html">Presentation</a>
+                        </li>
+                        <li>
+                            <a href="pages/kontakt.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
 <!-- Navigeringsmenyn Slut -->
-        
-        <h2>Min kursblogg</h2>
-
+<!-- Sidinnehåll Start -->        
+                <div id="content">
+                
+                    <h2>Min kursblogg</h2>
+            
 <!-- Inlägg Start -->
-
-        <div id="klattervideo">
-            <h3>Klättervideo ifrån Paklenica, Kroatien.</h3>
+                    <div id="klattervideo">
+                        <h3>Klättervideo ifrån Paklenica, Kroatien.</h3>
+                        
+                        <video controls width="320" height="180">
+                            <source src="videos/klattring.mp4" type="video/mp4">
+                            Vi beklagar. Din webbläsare stödjer inte HTML5 videotaggen.
+                        </video>
+                        
+                        <p>
+                            Skrivet av Johnny Pesola, 2014-09-04
+                        </p>
+                    </div>
             
-            <video controls width="320" height="180">
-                <source src="videos/klattring.mp4" type="video/mp4">
-                Vi beklagar. Din webbläsare stödjer inte HTML5 videotaggen.
-            </video>
+                    <div>
+                        <h3>Ritade två kugghjul i vektorgrafik</h3>
+                        <p>
+                            <a href="pics/kugghjul.svg">Klicka här för att se kugghjulen.</a>
+                        </p>
+                        <p>
+                            Skrivet av Johnny Pesola, 2014-09-04
+                        </p>
+                    </div>
             
-            <p>
-                Skrivet av Johnny Pesola, 2014-09-04
-            </p>
-        </div>
-
-        <div>
-            <h3>Ritade två kugghjul i vektorgrafik</h3>
-            <p>
-                <a href="pics/kugghjul.svg">Klicka här för att se kugghjulen.</a>
-            </p>
-            <p>
-                Skrivet av Johnny Pesola, 2014-09-04
-            </p>
-        </div>
-
-        <div>
-            <h3>En bild på mig finns nu upplagd</h3>
-            <p>
-                <a href="pages/presentation.html#picture_of_johnny">Klicka här för att se en bild på mig.</a>
-            </p>
-            <p>
-                Skrivet av Johnny Pesola, 2014-09-04
-            </p>
-        </div>
-
-        <div>
-            <h3>Här är min kurshemsida och det här är min blogg.</h3>
-            <p>
-                På den här hemsidan så kommer jag att lägga upp saker så småningom.
-            </p>
-            <p>
-                Skrivet av Johnny Pesola, 2014-09-03
-            </p>
-        </div>
+                    <div>
+                        <h3>En bild på mig finns nu upplagd</h3>
+                        <p>
+                            <a href="pages/presentation.html#picture_of_johnny">Klicka här för att se en bild på mig.</a>
+                        </p>
+                        <p>
+                            Skrivet av Johnny Pesola, 2014-09-04
+                        </p>
+                    </div>
+            
+                    <div>
+                        <h3>Här är min kurshemsida och det här är min blogg.</h3>
+                        <p>
+                            På den här hemsidan så kommer jag att lägga upp saker så småningom.
+                        </p>
+                        <p>
+                            Skrivet av Johnny Pesola, 2014-09-03
+                        </p>
+                    </div>
 <!-- Inlägg Slut -->
-
+         </div>
+<!-- Sidinnehåll Slut -->
+<!-- Sidfot Start -->
+                <div id="footer">
+                </div>
+<!-- Sidfot Slut -->
+        </div>
+<!-- Container Slut -->
     </body>
 </html>
