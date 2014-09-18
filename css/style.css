@@ -22,17 +22,17 @@ h2 {
     font-weight: 300;
     font-size: 24px;
     line-height: 32px;
-    color: #63C305;
+    color: #349dd1;
     margin: 0 0 20px 0;
 }
 
 h3 {
-/*    font-family: 'Open Sans', sans-serif, 'Arial'; */
+    font-family: 'Open Sans', sans-serif, 'Arial'; 
     font-style: normal;
     font-weight: 300;
-    font-size: 17px;
+    font-size: 22px;
     line-height: 26px;
-    color: #222222;
+    color: #60C002;
     margin: 20px 0 6px 0;
 }
 
@@ -42,6 +42,46 @@ a, a:visited, a:active {
 
 a:hover {
     color: #74D406;
+}
+
+video {
+    margin: 10px 10px 5px 10px;
+}
+
+fieldset {
+    border: 1px solid #cccccc;
+    padding: 5px 10px;
+    margin: 0 0 18px 0;
+}
+
+legend {
+    color: #60C002;
+    padding: 0 10px;
+}
+
+form input[type=text], form textarea, form select {
+    background: rgba(52,157,209,0.5); /* #349dd1; */
+    color: #ffffff;
+    border: 0;
+    padding: 3px;
+    margin: 3px;
+    border-radius: 5px; 
+}
+
+form textarea {
+    width: 200px;
+    height: 75px;
+    display: block;
+}
+
+input[type=submit] {
+    color: #ffffff;
+    padding: 5px 15px;
+    background: #74D406;
+    border:0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
 }
 
 
@@ -124,18 +164,67 @@ a:hover {
     float: right;
 }
 
-#content .entry_block {
-    margin: 0 0 20px 0;
-    background: #f8f8f8;
-    padding: 15px;
+    #content p {
+        margin: 10px 0;
+    }
+
+    #content .block_entry {
+        margin: 0 0 20px 0;
+        background: #f8f8f8;
+        padding: 15px;
+        
+        border-radius: 5px;
+    }
     
-    border-radius: 5px;
-}
+    #content .entry_block h3 {
+        margin-top: 0;
+    }
 
-#content .entry_block h3 {
-    margin-top: 0;
-}
-
+    #content img.photo {
+        border-radius: 2px;
+    }
+    
+    #content table {
+        margin: 0 0 20px 0;
+        background: #f8f8f8;
+        border: 1px solid #f0f0f0;
+    }
+    
+        #content table th, #content table td {
+            font-size: 11px;
+            padding: 0 7px;
+        }
+        
+        #content table th {
+            font-weight: bold;
+        }
+        
+        #content table td {
+            background: #FFFFFF;
+            border: 1px solid #f0f0f0;
+        }
+    
+    #content ul {
+        margin: 10px 0 10px 20px;
+        list-style: disc;
+    }
+    
+    #content dl {
+        margin: 10px 0;
+    }
+    
+    #content dl dt {
+        color: #60C002;
+    }
+    
+    #content dl dd {
+        margin: 0 0 0 15px;
+    }
+    
+    #content li ul {
+        margin: 0 0 0 20px;
+    }
+    
 #footer {
     height: 80px;
     width: 720px;

@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="../css/reset.css" type="text/css" /> <!-- Reset stylesheet -->
         <link rel="stylesheet" href="../css/style.css" type="text/css" />
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'> <!-- Google font for headers -->
-        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>  <!-- Google font for text -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>  <!-- Google font for text -->
         <title>Laborationer - Kurshemsidan (Johnny Pesola)</title>
         <!--
             Author: Johnny Pesola
@@ -49,10 +49,10 @@
                 <p>
                     OBS. Det här kontaktformuläret fungerar inte för tillfället.
                 </p>
-                <form id="formular" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+                <form class="block_entry" id="formular" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
                     <fieldset>
                         <legend>Fråga</legend>
-                        Ärendetyp
+                        Ärendetyp: 
                         <select name="fraga_typ">
                             <option value="fraga" selected>Fråga</option>
                             <option value="klagomal">Klagomål</option>
@@ -61,7 +61,7 @@
                         <br>
                         Rubrik: <input type="text">
                         <br>
-                        Fråga
+                        Fråga:
                         <textarea name="fraga_text"></textarea>
                         
                     </fieldset>
