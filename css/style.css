@@ -20,52 +20,96 @@ h2 {
     font-family: 'Open Sans', sans-serif, 'Arial';
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 32px;
+    color: #63C305;
+    margin: 0 0 20px;
+}
+
+a, a:visited, a:active {
+    color: #349dd1;
+}
+
+a:hover {
+    color: #74D406;
 }
 
 #container {
     background: #ffffff;
     width: 720px;
-    margin:  0 auto 10px;
-    border: 1px solid #eaedee;
+    margin:  0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    border-radius: 5px;
+    
+    -webkit-box-shadow: 0px 2px 30px 0px rgba(50, 50, 50, 0.12);
+    -moz-box-shadow:    0px 2px 30px 0px rgba(50, 50, 50, 0.12);
+    box-shadow:         0px 2px 30px 0px rgba(50, 50, 50, 0.12);
 }
 
 #header {
-    border: 1px solid #aa0000;
     width: 720px;
-    height: 200px;
+    height: 170px;
     float: left;
     position: relative;
+    border-bottom: 1px solid #F8F8F8;
 }
 
     #header img {
         position: absolute;
-        top: 0px;
-        left: 0px;
+        top: 5px;
+        left: 5px;
     }
     
     #header h1 {
         position: absolute;
-        top: 40px;
+        top: 50px;
         left: 330px;
     }
     
     #header p {
         position: absolute;
-        top: 84px;
+        top: 94px;
         left: 330px;
     }
 
 #navigation {
-    border: 1px solid #AA00AA;
     float: left;
     width: 200px;
+    margin: 22px 0 0 0;
 }
+    #navigation ul {
+        margin: 0 0 0 20px;
+        padding: 5px 10px;
+    }
+    
+    #navigation ul li {
+        margin: 5px 0;
+        background: #f8f8f8;
+        border-radius: 5px;
+        
+        float: left;
+        clear: both;
+    }
+    
+    #navigation ul li.active {
+        background: #74D406;
+    }
+    
+    #navigation ul li.active a {
+        color: #FFFFFF;
+    }
+    
+    #navigation ul li a {
+        display: block;
+        padding: 5px 10px;
+        text-decoration: none;
+    }
 
 #content {
-    border: 1px solid #AAAA00;
-    width: 500px;
+    margin: 24px 20px 20px 0;
+    width: 470px;
     float: right;
 }
 
@@ -73,5 +117,4 @@ h2 {
     height: 80px;
     width: 720px;
     clear: both;
-    border: 1px solid #00AA00;
 }
