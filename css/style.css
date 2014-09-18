@@ -184,14 +184,28 @@ input[type=submit] {
         #content .block_entry {
             margin: 0 0 20px 0;
             background: #f8f8f8;
-            padding: 15px;
+            padding: 15px 15px 5px 15px;
             
             border-radius: 5px;
         }
         
-        #content .entry_block h3 {
-            margin-top: 0;
-        }
+            #content .block_entry h3 {
+                margin: 0;
+                padding: 15px 40px 0 0;
+                background: url('pics/h3_gfx_mirrorred.png') top right no-repeat;
+                
+                position: relative;
+                top: -15px;
+                left: 15px;
+            }
+            
+            #content .block_entry p.author {
+                margin: 0;
+                padding: 5px 0 0 10px;
+                color: #bbbbbb;
+                font-size: 12px;
+                border-top: 1px solid #eeeeee;
+            }
     
         #content img.photo {
             border-radius: 2px;
