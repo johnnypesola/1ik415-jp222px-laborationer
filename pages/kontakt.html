@@ -2,6 +2,10 @@
 <html lang="sv">
     <head>
         <meta charset="utf-8"/>
+        <link rel="stylesheet" href="../css/reset.css" type="text/css" /> <!-- Reset stylesheet -->
+        <link rel="stylesheet" href="../css/style.css" type="text/css" />
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'> <!-- Google font for headers -->
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>  <!-- Google font for text -->
         <title>Laborationer - Kurshemsidan (Johnny Pesola)</title>
         <!--
             Author: Johnny Pesola
@@ -9,57 +13,72 @@
         -->
     </head>
     <body>
-    
-        <h1>Kontaktuppgifter</h1>
-        <p>
-            Johnny Pesola:s hemsida.
-        </p>
-        
+<!-- Container Start -->
+        <div id="container">
+<!-- Sidhuvud Start -->
+            <div id="header">
+                <img src="../pics/pesola_logo.png" alt="logotyp">
+                <h1>Kontaktuppgifter</h1>
+                <p>
+                    Johnny Pesola:s hemsida.
+                </p>
+            </div>
+<!-- Sidhuvud Slut -->
 <!-- Navigeringsmenyn Start -->
-        <ul>
-            <li>
-                <a href="../index.html">Startsidan</a>
-            </li>
-            <li>
-                <a href="laborationer.html">Laborationer</a>
-            </li>
-            <li>
-                <a href="presentation.html">Presentation</a>
-            </li>
-            <li>
-                <a href="kontakt.html">Kontakt</a>
-            </li>
-        </ul>
+            <div id="navigation">
+                <ul>
+                    <li>
+                        <a href="../index.html">Startsidan</a>
+                    </li>
+                    <li>
+                        <a href="laborationer.html">Laborationer</a>
+                    </li>
+                    <li>
+                        <a href="presentation.html">Presentation</a>
+                    </li>
+                    <li>
+                        <a href="kontakt.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
 <!-- Navigeringsmenyn Slut -->
-
-        <h2>Mina kontaktuppgifter</h2>
-
-        <p>
-            OBS. Det här kontaktformuläret fungerar inte för tillfället.
-        </p>
-        <form id="formular" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
-            <fieldset>
-                <legend>Fråga</legend>
-                Ärendetyp
-                <select name="fraga_typ">
-                    <option value="fraga" selected>Fråga</option>
-                    <option value="klagomal">Klagomål</option>
-                    <option value="berom">Beröm</option>
-                </select>
-                <br>
-                Rubrik: <input type="text">
-                <br>
-                Fråga
-                <textarea name="fraga_text"></textarea>
-                
-            </fieldset>
-            <fieldset>
-                <legend>Information om dig</legend>
-                Kontakta mig via mail <input type="checkbox" name="information_kontakt_mail"><br>
-                Kontakta mig via telefon <input type="checkbox" name="information_kontakt_telefon">
-            </fieldset>
-            <input type="submit" name="skicka" value="Skicka frågan">
-        </form>
+<!-- Sidinnehåll Start -->        
+            <div id="content">
+                <h2>Mina kontaktuppgifter</h2>
         
+                <p>
+                    OBS. Det här kontaktformuläret fungerar inte för tillfället.
+                </p>
+                <form id="formular" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+                    <fieldset>
+                        <legend>Fråga</legend>
+                        Ärendetyp
+                        <select name="fraga_typ">
+                            <option value="fraga" selected>Fråga</option>
+                            <option value="klagomal">Klagomål</option>
+                            <option value="berom">Beröm</option>
+                        </select>
+                        <br>
+                        Rubrik: <input type="text">
+                        <br>
+                        Fråga
+                        <textarea name="fraga_text"></textarea>
+                        
+                    </fieldset>
+                    <fieldset>
+                        <legend>Information om dig</legend>
+                        Kontakta mig via mail <input type="checkbox" name="information_kontakt_mail"><br>
+                        Kontakta mig via telefon <input type="checkbox" name="information_kontakt_telefon">
+                    </fieldset>
+                    <input type="submit" name="skicka" value="Skicka frågan">
+                </form>
+            </div>
+<!-- Sidinnehåll Slut -->
+<!-- Sidfot Start -->
+            <div id="footer">
+            </div>
+<!-- Sidfot Slut -->
+        </div>
+<!-- Container Slut -->
     </body>
 </html>
