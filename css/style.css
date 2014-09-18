@@ -23,7 +23,17 @@ h2 {
     font-size: 24px;
     line-height: 32px;
     color: #63C305;
-    margin: 0 0 20px;
+    margin: 0 0 20px 0;
+}
+
+h3 {
+/*    font-family: 'Open Sans', sans-serif, 'Arial'; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 26px;
+    color: #222222;
+    margin: 20px 0 6px 0;
 }
 
 a, a:visited, a:active {
@@ -33,6 +43,7 @@ a, a:visited, a:active {
 a:hover {
     color: #74D406;
 }
+
 
 #container {
     background: #ffffff;
@@ -111,6 +122,18 @@ a:hover {
     margin: 24px 20px 20px 0;
     width: 470px;
     float: right;
+}
+
+#content .entry_block {
+    margin: 0 0 20px 0;
+    background: #f8f8f8;
+    padding: 15px;
+    
+    border-radius: 5px;
+}
+
+#content .entry_block h3 {
+    margin-top: 0;
 }
 
 #footer {
