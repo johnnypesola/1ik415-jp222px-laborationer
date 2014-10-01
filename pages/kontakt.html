@@ -28,16 +28,16 @@
             <div id="navigation">
                 <ul>
                     <li>
-                        <a href="../index.html">Startsidan</a>
+                        <a class="startpage" href="../index.html">Startsidan</a>
                     </li>
                     <li>
-                        <a href="laborationer.html">Laborationer</a>
+                        <a class="laborations" href="laborationer.html">Laborationer</a>
                     </li>
                     <li>
-                        <a href="presentation.html">Presentation</a>
+                        <a class="presentation" href="presentation.html">Presentation</a>
                     </li>
                     <li class="active">
-                        <a href="kontakt.html">Kontakt</a>
+                        <a class="contact" href="kontakt.html">Kontakt</a>
                     </li>
                 </ul>
             </div>
@@ -53,25 +53,25 @@
                     <fieldset>
                         <legend>Fråga</legend>
                         <label for="fraga_typ">Ärendetyp:</label>
-                        <select name="fraga_typ">
+                        <select name="fraga_typ" id="fraga_typ">
                             <option value="fraga" selected>Fråga</option>
                             <option value="klagomal">Klagomål</option>
                             <option value="berom">Beröm</option>
                         </select>
                         <br>
                         <label for="fraga_rubrik">Rubrik:</label>
-                        <input type="text" name="fraga_rubrik">
+                        <input type="text" name="fraga_rubrik" id="fraga_rubrik">
                         <br>
                         <label for="fraga_text">Fråga:</label>
-                        <textarea name="fraga_text"></textarea>
+                        <textarea name="fraga_text" id="fraga_text"></textarea>
                         
                     </fieldset>
                     <fieldset>
                         <legend>Information om dig</legend>
                         <label for="information_kontakt_mail">Kontakta mig via mail</label>
-                        <input type="checkbox" name="information_kontakt_mail"><br>
+                        <input type="checkbox" name="information_kontakt_mail" id="information_kontakt_mail"><br>
                         <label for="information_kontakt_telefon">Kontakta mig via telefon</label>
-                        <input type="checkbox" name="information_kontakt_telefon">
+                        <input type="checkbox" name="information_kontakt_telefon" id="information_kontakt_telefon">
                     </fieldset>
                     <input type="submit" name="skicka" value="Skicka frågan">
                 </form>
