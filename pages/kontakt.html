@@ -51,23 +51,26 @@
                 <form class="block_entry" id="formular" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
                     <fieldset>
                         <legend>Fråga</legend>
-                        Ärendetyp: 
+                        <label for="fraga_typ">Ärendetyp:</label>
                         <select name="fraga_typ">
                             <option value="fraga" selected>Fråga</option>
                             <option value="klagomal">Klagomål</option>
                             <option value="berom">Beröm</option>
                         </select>
                         <br>
-                        Rubrik: <input type="text">
+                        <label for="fraga_rubrik">Rubrik:</label>
+                        <input type="text" name="fraga_rubrik">
                         <br>
-                        Fråga:
+                        <label for="fraga_text">Fråga:</label>
                         <textarea name="fraga_text"></textarea>
                         
                     </fieldset>
                     <fieldset>
                         <legend>Information om dig</legend>
-                        Kontakta mig via mail <input type="checkbox" name="information_kontakt_mail"><br>
-                        Kontakta mig via telefon <input type="checkbox" name="information_kontakt_telefon">
+                        <label for="information_kontakt_mail">Kontakta mig via mail</label>
+                        <input type="checkbox" name="information_kontakt_mail"><br>
+                        <label for="information_kontakt_telefon">Kontakta mig via telefon</label>
+                        <input type="checkbox" name="information_kontakt_telefon">
                     </fieldset>
                     <input type="submit" name="skicka" value="Skicka frågan">
                 </form>

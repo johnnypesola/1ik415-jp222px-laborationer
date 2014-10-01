@@ -77,6 +77,10 @@ form textarea {
     display: block;
 }
 
+form label {
+    margin: 0 10px 0 0;
+}
+
 input[type=submit] {
     color: #ffffff;
     padding: 5px 15px;
