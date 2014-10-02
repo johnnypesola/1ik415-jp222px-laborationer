@@ -158,8 +158,8 @@ input[type=submit] {
             margin: 5px 0;
 
             /* Set white marker background */
-            background: url('pics/icons_menu.svg') top left no-repeat;
-            background-position: -6px -304px;
+            background: url('pics/icons_menu.png') top left no-repeat;
+            background-position: -6px -307px;
 
             background-color: #f8f8f8;            
             border-radius: 5px;
@@ -176,14 +176,13 @@ input[type=submit] {
                 color: #FFFFFF;
                 background-color: #74D406;
             }
-            
 
             #navigation ul li a {
                 display: block;
                 padding: 5px 10px 5px 47px;
                 text-decoration: none;
                 
-                background: url('pics/icons_menu.svg') top left no-repeat;
+                background: url('pics/icons_menu.png') top left no-repeat;
                 background-color: #f8f8f8;
                 border-radius: 5px;
                 
@@ -193,31 +192,27 @@ input[type=submit] {
             #navigation ul li a:hover {
                 margin-left: 15px;
             }
-            
-            #navigation ul li a:hover {
-                margin-left: 15px;
-            }
         
         /* Background images and Hover effects for menu list START */
             #navigation ul li a.startpage {
-                background-position: 0 -6px;
+                background-position: 0 -4px;
             }
                 #navigation ul li a.startpage:hover {
                     background-position: 0 -152px;
                 }
             
             #navigation ul li a.laborations {
-                background-position: 0 -39px;
+                background-position: 0 -38px;
             }
                 #navigation ul li a.laborations:hover {
-                    background-position: 0 -185px;
+                    background-position: 0 -187px;
                 }
             
             #navigation ul li a.presentation {
                 background-position: 0 -77px;
             }
                 #navigation ul li a.presentation:hover {
-                    background-position: 0 -224px;
+                    background-position: 0 -225px;
                 }
             
             #navigation ul li a.contact {
@@ -225,7 +220,7 @@ input[type=submit] {
             }
             
                 #navigation ul li a.contact:hover {
-                    background-position: 0 -259px;
+                    background-position: 0 -262px;
                 }
         /* Background images and Hover effects for menu list END */
 
