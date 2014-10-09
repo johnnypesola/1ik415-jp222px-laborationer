@@ -11,7 +11,7 @@ body {
     -moz-box-shadow: none;
     box-shadow: none;
 }
-    #container #header {
+    #header {
         width: 100%;
         
         background-size: 200px;
@@ -23,32 +23,32 @@ body {
         border-bottom: 0;
     }
 
-        #container #header h1 {
+        #header h1 {
             font-size: 18px;
             top: 111px;
             left: 20px;
         }
-        #container #header p {
+        #header p {
             top: 94px;
             left: 20px;
             color: #eeeeee;
             font-size: 14px;
         }
     
-    #container #navigation {
+    #navigation {
         margin: 0;
         padding: 0;
         width: 100%;
     }
         
-    #container #navigation ul {
+    #navigation ul {
         padding: 0;
         margin: 0px;
         float: left;
         clear: both;
     }
     
-        #container #navigation ul li {
+        #navigation ul li {
             background: none;
             background-position: 0;
             border-radius: 0;
@@ -56,7 +56,7 @@ body {
             margin: 3px;
             clear: none;
         }
-            #container #navigation ul li a {
+            #navigation ul li a {
                 padding: 3px;
                 background-image: none;
                 transition: none;
@@ -66,31 +66,31 @@ body {
                 margin: 0;
             }
     
-    #container #content {
+    #content {
         width: 100%;
         margin: 0;
         float: left;
         clear: both;
     }
-        #container #content h2 {
+        #content h2 {
             font-size: 24px;
             margin: 20px 10px 10px 10px;
         }
         
-        #container #content h3, #container #content ul, #container #content ol, #container #content dl, #container #content p {
+        #content h3, #content ul, #content ol, #content dl, #content p {
             margin-left: 10px;
             margin-right: 5px;
         }
         
-        #container #content li {
+        #content li {
             margin-left: 16px;
         }
         
-        #container #content .block_entry {
+        #content .block_entry {
             border-radius: 0;
         }
         
-            #container #content .block_entry h3 {
+            #content .block_entry h3 {
                 font-size: 20px;
                 position: static;
                 top: 0;
@@ -99,17 +99,17 @@ body {
                 clear: both;
             }
             
-            #container #content .block_entry img {
+            #content .block_entry img {
                 max-width: 180px;
             }
             
-            #container #content .block_entry video {
+            #content .block_entry video {
                 margin: 0;
                 width: 280px;
             }
             
         
-    #container #footer {
+    #footer {
         width: 100%;
         height: 20px;
     }
