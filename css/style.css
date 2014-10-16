@@ -120,7 +120,7 @@ input[type=submit] {
 /* Container End */
 
 /* Header Start */
-    #header {
+    header {
         width: 820px;
         height: 170px;
         float: left;
@@ -130,13 +130,13 @@ input[type=submit] {
         background-position: 5px 5px;
     }
         
-        #header h1 {
+        header h1 {
             position: absolute;
             top: 50px;
             left: 330px;
         }
         
-        #header p {
+        header p {
             position: absolute;
             top: 94px;
             left: 330px;
@@ -144,17 +144,17 @@ input[type=submit] {
 /* Header End */
 
 /* Navigation Start */
-    #navigation {
+    nav {
         float: left;
         width: 180px;
         margin: 22px 0 0 0;
     }
-        #navigation ul {
+        nav ul {
             margin: 0 0 0 20px;
             padding: 5px 10px;
         }
         
-        #navigation ul li {
+        nav ul li {
             margin: 5px 0;
 
             /* Set white marker background */
@@ -168,16 +168,16 @@ input[type=submit] {
             clear: both;
         }
         
-            #navigation ul li.active {
+            nav ul li.active {
                 background-color: #74D406;
             }
             
-            #navigation ul li.active a {
+            nav ul li.active a {
                 color: #FFFFFF;
                 background-color: #74D406;
             }
 
-            #navigation ul li a {
+            nav ul li a {
                 display: block;
                 padding: 5px 10px 5px 47px;
                 text-decoration: none;
@@ -189,37 +189,37 @@ input[type=submit] {
                 transition: margin-left 0.2s ease-in-out, color 0.4s ease-in-out; /* CSS3 Animation */
             }
 
-            #navigation ul li a:hover {
+            nav ul li a:hover {
                 margin-left: 15px;
             }
         
         /* Background images and Hover effects for menu list START */
-            #navigation ul li a.startpage {
+            nav ul li a.startpage {
                 background-position: 0 -4px;
             }
-                #navigation ul li a.startpage:hover {
+                nav ul li a.startpage:hover {
                     background-position: 0 -152px;
                 }
             
-            #navigation ul li a.laborations {
+            nav ul li a.laborations {
                 background-position: 0 -38px;
             }
-                #navigation ul li a.laborations:hover {
+                nav ul li a.laborations:hover {
                     background-position: 0 -187px;
                 }
             
-            #navigation ul li a.presentation {
+            nav ul li a.presentation {
                 background-position: 0 -77px;
             }
-                #navigation ul li a.presentation:hover {
+                nav ul li a.presentation:hover {
                     background-position: 0 -226px;
                 }
             
-            #navigation ul li a.contact {
+            nav ul li a.contact {
                 background-position: 0 -113px;
             }
             
-                #navigation ul li a.contact:hover {
+                nav ul li a.contact:hover {
                     background-position: 0 -262px;
                 }
         /* Background images and Hover effects for menu list END */
@@ -227,17 +227,17 @@ input[type=submit] {
 /* Navigation End */
 
 /* Content Start */
-    #content {
+    main {
         margin: 24px 20px 20px 0;
         width: 590px;
         float: right;
     }
     
-        #content p {
+        main p {
             margin: 10px 0 20px;
         }
     
-        #content .block_entry {
+        main article {
             margin: 0 0 20px 0;
             background: #f8f8f8;
             padding: 15px 15px 5px 15px;
@@ -245,7 +245,7 @@ input[type=submit] {
             border-radius: 5px;
         }
         
-            #content .block_entry h3 {
+            main article h3 {
                 margin: 0;
                 padding: 15px 40px 0 0;
                 background: url('pics/h3_gfx_mirrorred.png') top right no-repeat;
@@ -255,7 +255,7 @@ input[type=submit] {
                 left: 15px;
             }
             
-            #content .block_entry p.author {
+            main article p.author {
                 margin: 0;
                 padding: 5px 0 0 10px;
                 color: #bbbbbb;
@@ -265,7 +265,7 @@ input[type=submit] {
                 clear: both;
             }
     
-        #content img.photo {
+        main img.photo {
             border-radius: 2px;
             padding: 10px;
             background: #FFFFFF;
@@ -278,50 +278,50 @@ input[type=submit] {
             box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.15);
         }
         
-        #content table {
+        main table {
             margin: 0 0 20px 0;
             background: #f8f8f8;
             border: 1px solid #f0f0f0;
         }
         
-            #content table th, #content table td {
+            main table th, main table td {
                 font-size: 11px;
                 padding: 0 7px;
             }
             
-            #content table th {
+            main table th {
                 font-weight: bold;
             }
             
-            #content table td {
+            main table td {
                 background: #FFFFFF;
                 border: 1px solid #f0f0f0;
             }
         
-        #content ul {
+        main ul {
             margin: 10px 0 10px 20px;
             list-style: disc;
         }
         
-        #content dl {
+        main dl {
             margin: 10px 0;
         }
         
-        #content dl dt {
+        main dl dt {
             color: #60C002;
         }
         
-        #content dl dd {
+        main dl dd {
             margin: 0 0 0 15px;
         }
         
-        #content li ul {
+        main li ul {
             margin: 0 0 0 20px;
         }
 /* Content End */
 
 /* Footer Start */
-#footer {
+footer {
     height: 80px;
     width: 720px;
     clear: both;
