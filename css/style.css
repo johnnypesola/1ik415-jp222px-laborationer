@@ -141,7 +141,25 @@ input[type=submit] {
             top: 94px;
             left: 330px;
         }
+        
+
 /* Header End */
+
+/* vcard Start */
+    section.vcard {
+        position: absolute;
+        top: 118px;
+        left: 330px;
+        font-size: 11px;
+        color: #dddddd;
+        text-align: left;
+    }
+    
+    section.vcard div, footer .vcard span {
+        display: inline-block;
+        margin-left: 5px;
+    }
+/* vcard End */
 
 /* Navigation Start */
     nav {
@@ -241,6 +259,7 @@ input[type=submit] {
             margin: 0 0 20px 0;
             background: #f8f8f8;
             padding: 15px 15px 5px 15px;
+            border-bottom: 2px solid #eeeeee;
             
             border-radius: 5px;
             
@@ -268,13 +287,13 @@ input[type=submit] {
                 color: #bbbbbb;
                 font-size: 12px;
                 border-top: 1px solid #eeeeee;
-                text-align: right;
+                text-align: center;
                 clear: both;
             }
             
             main article aside {
                 float: left; 
-                margin: 0 0 20px 5px;
+                margin: 5px 0 15px 5px;
                 position: relative;
             }
                 main article aside p.comment_text {
@@ -379,8 +398,7 @@ input[type=submit] {
 
 /* Footer Start */
 footer {
-    height: 80px;
-    width: 720px;
+    width: 820px;
     clear: both;
 }
 /* Footer End */
