@@ -11,7 +11,7 @@ body {
     -moz-box-shadow: none;
     box-shadow: none;
 }
-    #header {
+    header {
         width: 100%;
         
         background-size: 200px;
@@ -23,32 +23,32 @@ body {
         border-bottom: 0;
     }
 
-        #header h1 {
+        header h1 {
             font-size: 18px;
             top: 111px;
             left: 20px;
         }
-        #header p {
+        header p {
             top: 94px;
             left: 20px;
             color: #eeeeee;
             font-size: 14px;
         }
     
-    #navigation {
+    nav {
         margin: 0;
         padding: 0;
         width: 100%;
     }
         
-    #navigation ul {
+    nav ul {
         padding: 0;
         margin: 0px;
         float: left;
         clear: both;
     }
     
-        #navigation ul li {
+        nav ul li {
             background: none;
             background-position: 0;
             border-radius: 0;
@@ -56,41 +56,41 @@ body {
             margin: 3px;
             clear: none;
         }
-            #navigation ul li a {
+            nav ul li a {
                 padding: 3px;
                 background-image: none;
                 transition: none;
             }
             
-            #navigation ul li a:hover {
+            nav ul li a:hover {
                 margin: 0;
             }
     
-    #content {
+    main {
         width: 100%;
         margin: 0;
         float: left;
         clear: both;
     }
-        #content h2 {
+        main h2 {
             font-size: 24px;
             margin: 20px 10px 10px 10px;
         }
         
-        #content h3, #content ul, #content ol, #content dl, #content p {
+        main h3, main ul, main ol, main dl, main p {
             margin-left: 10px;
             margin-right: 5px;
         }
         
-        #content li {
+        main li {
             margin-left: 16px;
         }
         
-        #content .block_entry {
+        main article {
             border-radius: 0;
         }
         
-            #content .block_entry h3 {
+            main article h3 {
                 font-size: 20px;
                 position: static;
                 top: 0;
@@ -99,17 +99,17 @@ body {
                 clear: both;
             }
             
-            #content .block_entry img {
+            main article img {
                 max-width: 180px;
             }
             
-            #content .block_entry video {
+            main article video {
                 margin: 0;
                 width: 280px;
             }
             
         
-    #footer {
+    footer {
         width: 100%;
         height: 20px;
     }

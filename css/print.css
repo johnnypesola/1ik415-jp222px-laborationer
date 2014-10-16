@@ -87,18 +87,18 @@ form label {
     margin-left: 15px !important;
 }
 
-#header, #navigation, #footer {
+header, nav, footer {
     display: none;
 }
 
 /* Global default End */
 
 /* Content Start */
-        #content p {
+        main p {
             margin: 10px 0 20px;
         }
     
-        #content .block_entry {
+        main article {
             margin: 0 0 20px 0;
             background: #f8f8f8;
             padding: 15px 15px 5px 15px;
@@ -106,12 +106,12 @@ form label {
             border-radius: 5px;
         }
         
-            #content .block_entry h3 {
+            main article h3 {
                 margin: 0;
                 padding: 15px 40px 0 0;
             }
             
-            #content .block_entry p.author {
+            main article p.author {
                 margin: 0;
                 padding: 5px 0 0 10px;
                 color: #bbbbbb;
@@ -119,49 +119,49 @@ form label {
                 text-align: left;
             }
     
-        #content img.photo {
+        main img.photo {
             padding: 10px;
             margin: 5px;
         }
         
-        #content table {
+        main table {
             margin: 0 0 20px 0;
             background: #f8f8f8;
             border: 1px solid #f0f0f0;
         }
         
-            #content table th, #content table td {
+            main table th, main table td {
                 font-size: 11px;
                 padding: 0 7px;
             }
             
-            #content table th {
+            main table th {
                 font-weight: bold;
             }
             
-            #content table td {
+            main table td {
                 border: 1px solid #f0f0f0;
             }
         
-        #content ul {
+        main ul {
             margin: 10px 0 10px 20px;
             list-style: disc;
         }
         
-        #content dl {
+        main dl {
             margin: 10px 0;
         }
         
-        #content dl dt {
+        main dl dt {
             color: #40A000;
             font-family: 'Open Sans', sans-serif, 'Arial';
         }
         
-        #content dl dd {
+        main dl dd {
             margin: 0 0 0 15px;
         }
         
-        #content li ul {
+        main li ul {
             margin: 0 0 0 20px;
         }
 /* Content End */

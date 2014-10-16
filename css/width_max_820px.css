@@ -12,7 +12,7 @@ body {
     box-shadow: none;
 }
     
-    #header {
+    header {
         width: 100%;
         
         background-size: 250px;
@@ -23,58 +23,58 @@ body {
         
     }
 
-        #header h1 {
+        header h1 {
             font-size: 22px;
             left: 280px;
             top: 40px;
         }
-        #header p {
+        header p {
             left: 280px;
             top: 80px;
             font-size: 14px;
         }
     
-    #navigation {
+    nav {
         margin: 0;
         padding: 0;
         width: 100%;
     }
         
-    #navigation ul {
+    nav ul {
         padding: 0;
         margin: 20px 0 0 0;
         float: left;
         clear: both;
     }
     
-        #navigation ul li {
+        nav ul li {
             margin: 2px;
             clear: none;
         }
-            #navigation ul li a {
+            nav ul li a {
                 padding: 5px 4px 5px 40px;
             }
             
-            #navigation ul li a:hover {
+            nav ul li a:hover {
                 margin: 0;
             }
     
-    #content {
+    main {
         width: 90%;
         float: left;
         margin: 20px 10px 0 10px;
     }
     
-        #content .block_entry
+        main article
         {
             width: 400px;
             margin: 20px;
         }
         
-        #content h2 {
+        main h2 {
             /* margin: 0 0 20px 20px; */
         }
 
-    #footer {
+    footer {
         width: 100%;
     }
