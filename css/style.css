@@ -243,6 +243,13 @@ input[type=submit] {
             padding: 15px 15px 5px 15px;
             
             border-radius: 5px;
+            
+            clear: both;
+            
+            overflow: hidden; /* Clearfix! */
+            zoom: 1;  /* Triggering "hasLayout" in IE */
+            display: block; /* Element must be a block to wrap around contents. Unnecessary if only using block-level elements. */
+            
         }
         
             main article h3 {
@@ -264,6 +271,56 @@ input[type=submit] {
                 text-align: right;
                 clear: both;
             }
+            
+            main article aside {
+                float: left; 
+                margin: 0 0 20px 5px;
+                position: relative;
+            }
+                main article aside p.comment_text {
+                    border-radius: 20px;
+                    background: #ffffff;
+                    padding: 10px 20px;
+                    margin: 0 0 5px 0;
+                    
+                    -webkit-box-shadow: 2px 2px 7px 0px rgba(50, 50, 50, 0.10);
+                    -moz-box-shadow:    2px 2px 7px 0px rgba(50, 50, 50, 0.10);
+                    box-shadow:         2px 2px 7px 0px rgba(50, 50, 50, 0.10);
+                    float: left;
+                    font-size: 12px;                    
+                }
+                
+                main article aside time {
+                    position: absolute;
+                    bottom: -5px;
+                    left: 23px;
+                    font-size: 9px;
+                    color: #bbbbbb;
+                    width: 90px;
+                    line-height: 10px;
+                }
+                
+                main article aside p.comment_author {
+                    padding: 0;
+                    margin: 0;
+                    color: #349dd1;
+                    font-size: 12px;
+                    text-align: left;
+                    clear: both;
+                }
+                
+                main article aside p.comment_author:before {
+                    content: "";
+                    width: 0;
+                	height: 0;
+                	border-top: 15px solid #ffffff;
+                	border-right: 20px solid transparent;
+                	position: relative;
+                	left: 28px;
+                	bottom: 2px;
+                }
+                
+
     
         main img.photo {
             border-radius: 2px;
