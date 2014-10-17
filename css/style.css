@@ -309,12 +309,12 @@ input[type=submit] {
                     font-size: 12px;                    
                 }
                 
-                main article aside time {
+                main article aside p.time {
                     position: absolute;
-                    bottom: -5px;
-                    left: 23px;
+                    bottom: -25px;
+                    left: 24px;
                     font-size: 9px;
-                    color: #bbbbbb;
+                    color: #cccccc;
                     width: 90px;
                     line-height: 10px;
                 }
