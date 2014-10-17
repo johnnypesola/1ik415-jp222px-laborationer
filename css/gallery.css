@@ -13,14 +13,24 @@
 }
 
 body {
-    margin: 100px;
+    margin: 30px 100px 0 100px;
     background: radial-gradient(ellipse at center, rgba(245,247,249,1) 47%,rgba(197,213,221,1) 100%);
     font-family: 'my_boyfriends_handwritingRg', Arial, sans-serif;
 }
 
+h1 {
+    color: #000000;
+    text-align: center;
+    position: relative;
+    right: 50px;
+}
+
 a {
+    z-index 0;
     width: 150px;
-    display: inline-block;
+    display: block;
+    float: left;
+    position: relative;
     
     background: #ffffff;
     padding: 8px 8px 5px 8px;
@@ -36,7 +46,7 @@ a {
     
     text-align: center;
     
-    transform: rotate(-2deg);
+    transform: rotate(-2deg) scale(1.2);
     
     transition: all 0.5s ease-in-out; /* CSS3 Animation */
 }
@@ -46,7 +56,7 @@ a:after {
 }
 
 a:nth-child(2n) {
-    transform: rotate(2deg);
+    transform: rotate(2deg) scale(1.1);
 }
 
 a:nth-child(3n) {
@@ -55,16 +65,16 @@ a:nth-child(3n) {
 }
 
 a:nth-child(5n) {
-    transform: rotate(-10deg);
+    transform: rotate(-10deg) scale(1.3);
     font-size: 17px;
 }
 
 a:nth-child(7n) {
-    transform: rotate(14deg);
+    transform: rotate(14deg) scale(1.2);
 }
 
 a:nth-child(10n) {
-    transform: rotate(-2deg);
+    transform: rotate(-2deg) scale(1.1);
 }
 
 img {
@@ -72,15 +82,12 @@ img {
 }
 
 a:focus, a:hover {
-    
-    width: 300px;
-    transform: none;
-    font-size: 200%;
-    padding: 16px 16px 10px 16px;
-    line-height: 48px;
-    
+
+    transform: scale(2);
+
     -webkit-box-shadow: 30px 70px 150px 0px rgba(50, 50, 50, 0.25);
     -moz-box-shadow:    30px 70px 150px 0px rgba(50, 50, 50, 0.25);
     box-shadow:         30px 70px 150px 0px rgba(50, 50, 50, 0.25);
-    z-index: 30;
+
+    z-index: 5;
 }
